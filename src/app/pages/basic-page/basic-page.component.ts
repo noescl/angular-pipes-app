@@ -27,7 +27,7 @@ export default class BasicPageComponent {
       this.customDate.set(new Date());
       console.log('tick');
     }, 1000);
-
+    //Limpieza de intervalos
     onCleanup(() => {
       clearInterval(interval);
     });
